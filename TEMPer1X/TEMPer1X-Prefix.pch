@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TEMPer1X' target in the 'TEMPer1X' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
