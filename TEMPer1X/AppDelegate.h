@@ -8,8 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> 
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSLevelIndicator *guage;
+@property (assign) IBOutlet NSTextField *text;
+@property (assign) IBOutlet NSButton *readButton;
+
+- (IBAction)readTemp:(id)sender;
 
 @end

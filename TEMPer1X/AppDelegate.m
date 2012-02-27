@@ -7,14 +7,27 @@
 //
 
 #import "AppDelegate.h"
+#import "SSLTEMPer1Controller.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize guage = _guage;
+@synthesize text = _text;
+@synthesize readButton = _readButton;
+
+SSLTEMPer1Controller *temper1;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    temper1 = [[SSLTEMPer1Controller alloc] init];
+}
+
+- (IBAction)readTemp:(id)sender
+{
+    float temp = [temper1 getTemp];
+    [_guage setFloatValue:temp];
+    [_text setFloatValue:temp];
 }
 
 @end

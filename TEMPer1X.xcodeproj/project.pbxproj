@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A594FC414FBDB7700DB6AC8 /* SSLTEMPer1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A594FC314FBDB7700DB6AC8 /* SSLTEMPer1Controller.m */; };
+		4A594FC814FBDC3500DB6AC8 /* hid.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A594FC714FBDC3500DB6AC8 /* hid.c */; };
+		4A594FCA14FBDCC700DB6AC8 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A594FC914FBDCC700DB6AC8 /* IOKit.framework */; };
 		4A6BDAE514FA68410034E418 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6BDAE414FA68410034E418 /* Cocoa.framework */; };
 		4A6BDAEF14FA68410034E418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A6BDAED14FA68410034E418 /* InfoPlist.strings */; };
 		4A6BDAF114FA68410034E418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6BDAF014FA68410034E418 /* main.m */; };
@@ -30,24 +33,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A594FC214FBDB7700DB6AC8 /* SSLTEMPer1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLTEMPer1Controller.h; sourceTree = "<group>"; };
+		4A594FC314FBDB7700DB6AC8 /* SSLTEMPer1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLTEMPer1Controller.m; sourceTree = "<group>"; };
+		4A594FC614FBDC3500DB6AC8 /* hidapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hidapi.h; sourceTree = "<group>"; };
+		4A594FC714FBDC3500DB6AC8 /* hid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hid.c; sourceTree = "<group>"; };
+		4A594FC914FBDCC700DB6AC8 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		4A636C4F14FC4DFC004D24F7 /* TEMPer1X.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TEMPer1X.entitlements; sourceTree = "<group>"; };
 		4A6BDAE014FA68410034E418 /* TEMPer1X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEMPer1X.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6BDAE414FA68410034E418 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4A6BDAE714FA68410034E418 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4A6BDAE814FA68410034E418 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4A6BDAE914FA68410034E418 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4A6BDAEC14FA68410034E418 /* TEMPer1X-Info.plist */ = {isa = PBXFileReference; path = "TEMPer1X-Info.plist"; sourceTree = "<group>"; };
+		4A6BDAEC14FA68410034E418 /* TEMPer1X-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TEMPer1X-Info.plist"; sourceTree = "<group>"; };
 		4A6BDAEE14FA68410034E418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A6BDAF014FA68410034E418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A6BDAF214FA68410034E418 /* TEMPer1X-Prefix.pch */ = {isa = PBXFileReference; path = "TEMPer1X-Prefix.pch"; sourceTree = "<group>"; };
+		4A6BDAF214FA68410034E418 /* TEMPer1X-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TEMPer1X-Prefix.pch"; sourceTree = "<group>"; };
 		4A6BDAF414FA68410034E418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		4A6BDAF614FA68410034E418 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A6BDAF614FA68410034E418 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A6BDAF714FA68410034E418 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A6BDAFA14FA68410034E418 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4A6BDB0114FA68410034E418 /* TEMPer1XTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEMPer1XTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6BDB0214FA68410034E418 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4A6BDB0914FA68410034E418 /* TEMPer1XTests-Info.plist */ = {isa = PBXFileReference; path = "TEMPer1XTests-Info.plist"; sourceTree = "<group>"; };
+		4A6BDB0914FA68410034E418 /* TEMPer1XTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TEMPer1XTests-Info.plist"; sourceTree = "<group>"; };
 		4A6BDB0B14FA68410034E418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4A6BDB0D14FA68410034E418 /* TEMPer1XTests.h */ = {isa = PBXFileReference; path = TEMPer1XTests.h; sourceTree = "<group>"; };
+		4A6BDB0D14FA68410034E418 /* TEMPer1XTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEMPer1XTests.h; sourceTree = "<group>"; };
 		4A6BDB0E14FA68410034E418 /* TEMPer1XTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMPer1XTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A594FCA14FBDCC700DB6AC8 /* IOKit.framework in Frameworks */,
 				4A6BDAE514FA68410034E418 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +104,7 @@
 		4A6BDAE314FA68410034E418 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A594FC914FBDCC700DB6AC8 /* IOKit.framework */,
 				4A6BDAE414FA68410034E418 /* Cocoa.framework */,
 				4A6BDB0214FA68410034E418 /* SenTestingKit.framework */,
 				4A6BDAE614FA68410034E418 /* Other Frameworks */,
@@ -114,10 +125,15 @@
 		4A6BDAEA14FA68410034E418 /* TEMPer1X */ = {
 			isa = PBXGroup;
 			children = (
+				4A636C4F14FC4DFC004D24F7 /* TEMPer1X.entitlements */,
+				4A594FC614FBDC3500DB6AC8 /* hidapi.h */,
+				4A594FC714FBDC3500DB6AC8 /* hid.c */,
 				4A6BDAF614FA68410034E418 /* AppDelegate.h */,
 				4A6BDAF714FA68410034E418 /* AppDelegate.m */,
 				4A6BDAF914FA68410034E418 /* MainMenu.xib */,
 				4A6BDAEB14FA68410034E418 /* Supporting Files */,
+				4A594FC214FBDB7700DB6AC8 /* SSLTEMPer1Controller.h */,
+				4A594FC314FBDB7700DB6AC8 /* SSLTEMPer1Controller.m */,
 			);
 			path = TEMPer1X;
 			sourceTree = "<group>";
@@ -199,6 +215,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Sledgehammer Solutions Limited";
 			};
 			buildConfigurationList = 4A6BDADA14FA68410034E418 /* Build configuration list for PBXProject "TEMPer1X" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -262,6 +279,8 @@
 			files = (
 				4A6BDAF114FA68410034E418 /* main.m in Sources */,
 				4A6BDAF814FA68410034E418 /* AppDelegate.m in Sources */,
+				4A594FC414FBDB7700DB6AC8 /* SSLTEMPer1Controller.m in Sources */,
+				4A594FC814FBDC3500DB6AC8 /* hid.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,9 +388,11 @@
 		4A6BDB1314FA68410034E418 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TEMPer1X/TEMPer1X.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TEMPer1X/TEMPer1X-Prefix.pch";
 				INFOPLIST_FILE = "TEMPer1X/TEMPer1X-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -380,9 +401,11 @@
 		4A6BDB1414FA68410034E418 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TEMPer1X/TEMPer1X.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TEMPer1X/TEMPer1X-Prefix.pch";
 				INFOPLIST_FILE = "TEMPer1X/TEMPer1X-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -435,6 +458,7 @@
 				4A6BDB1414FA68410034E418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A6BDB1514FA68410034E418 /* Build configuration list for PBXNativeTarget "TEMPer1XTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +467,7 @@
 				4A6BDB1714FA68410034E418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
