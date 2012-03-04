@@ -38,6 +38,29 @@ static float c_to_u(float deg_c, char unit)
         return deg_c;
 }
 
+- (int)getDeviceCount
+{
+	struct hid_device_info *devs, *cur_dev, *first_dev;
+	int device_count = 0;
+    
+	devs = hid_enumerate(VENDOR_ID, PRODUCT_ID);
+	cur_dev = devs;	
+	while (cur_dev) {
+		if (cur_dev->usage_page == HID_USAGE_PAGE && cur_dev->usage == HID_USAGE)
+		{
+            first_dev = cur_dev;
+            ++device_count;
+		}
+		cur_dev = cur_dev->next;
+	}
+
+	hid_free_enumeration(devs);
+    
+	/* Free static HIDAPI objects. */
+	hid_exit();
+    
+    return device_count;
+}    
 
 - (float)getTemp
 {
@@ -47,30 +70,29 @@ static float c_to_u(float deg_c, char unit)
     float temp_c = 0.0;
     
     
-	struct hid_device_info *devs, *cur_dev;
-	
-	devs = hid_enumerate(0x0c45, 0x7401);
+	struct hid_device_info *devs, *cur_dev, *first_dev;
+    
+	devs = hid_enumerate(VENDOR_ID, PRODUCT_ID);
 	cur_dev = devs;	
 	while (cur_dev) {
-		if (cur_dev->usage_page == 0xff00 && cur_dev->usage == 1)
+		if (cur_dev->usage_page == HID_USAGE_PAGE && cur_dev->usage == HID_USAGE)
 		{
+            first_dev = cur_dev;
 			break;		
 		}
 		cur_dev = cur_dev->next;
 	}
     
-	if ((cur_dev != NULL) && cur_dev->usage_page == (unsigned short)0xff00 && cur_dev->usage == 1)
+	if ((first_dev != NULL) && first_dev->usage_page == (unsigned short)HID_USAGE_PAGE && first_dev->usage == HID_USAGE)
 	{
 		// Set up the command buffer.
-		memset(buf,0x00,sizeof(buf));
+		memset(buf, 0x00, sizeof(buf));
 		buf[0] = 0x01;
 		buf[1] = 0x81;
 		
-		handle = hid_open_path(cur_dev->path);
-		if (!handle) {
-//			return 1;
-		}
-		else {
+		handle = hid_open_path(first_dev->path);
+        if (handle) 
+        {
             // Request state (cmd 0x80). The first byte is the report number (0x1).
             const static char cq_temperature[] = { 0x01, 0x80, 0x33, 0x01, 0x00, 0x00, 0x00, 0x00 };
             
