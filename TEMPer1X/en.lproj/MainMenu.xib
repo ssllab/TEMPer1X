@@ -1309,7 +1309,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">7</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {480, 112}}</string>
+				<string key="NSWindowRect">{{163, 591}, {480, 112}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">TEMPer1X</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -1382,7 +1382,7 @@
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="47888235">
 								<int key="NSCellFlags">-2072904127</int>
-								<int key="NSCellFlags2">272634880</int>
+								<int key="NSCellFlags2">71308288</int>
 								<reference key="NSSupport" ref="334450502"/>
 								<object class="NSNumberFormatter" key="NSFormatter" id="387322367">
 									<dictionary class="NSMutableDictionary" key="NS.attributes">

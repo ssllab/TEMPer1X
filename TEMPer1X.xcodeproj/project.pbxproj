@@ -94,14 +94,14 @@
 			isa = PBXGroup;
 			children = (
 				4A636C4F14FC4DFC004D24F7 /* TEMPer1X.entitlements */,
-				4A594FC614FBDC3500DB6AC8 /* hidapi.h */,
-				4A594FC714FBDC3500DB6AC8 /* hid.c */,
 				4A6BDAF614FA68410034E418 /* AppDelegate.h */,
 				4A6BDAF714FA68410034E418 /* AppDelegate.m */,
 				4A6BDAF914FA68410034E418 /* MainMenu.xib */,
-				4A6BDAEB14FA68410034E418 /* Supporting Files */,
 				4A594FC214FBDB7700DB6AC8 /* SSLTEMPer1Controller.h */,
 				4A594FC314FBDB7700DB6AC8 /* SSLTEMPer1Controller.m */,
+				4A594FC614FBDC3500DB6AC8 /* hidapi.h */,
+				4A594FC714FBDC3500DB6AC8 /* hid.c */,
+				4A6BDAEB14FA68410034E418 /* Supporting Files */,
 			);
 			path = TEMPer1X;
 			sourceTree = "<group>";
