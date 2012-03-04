@@ -40,7 +40,7 @@ SSLTEMPer1Controller *temper1;
         [alert setAlertStyle: NSInformationalAlertStyle];
         [alert beginSheetModalForWindow:_window modalDelegate:self didEndSelector:nil contextInfo:nil];
     }
-    else if ([temper1 getDeviceCount] == 0) 
+    else if ([temper1 getDeviceCount] > 1) 
     {
         NSAlert *alert = [[NSAlert alloc] init];
         [alert addButtonWithTitle: @"OK"];
