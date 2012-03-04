@@ -15,6 +15,7 @@
 @property (assign) IBOutlet NSTextField *text;
 @property (assign) IBOutlet NSButton *readButton;
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication;
 - (IBAction)readTemp:(id)sender;
 
 @end

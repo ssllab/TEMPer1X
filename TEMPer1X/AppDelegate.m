@@ -23,6 +23,11 @@ SSLTEMPer1Controller *temper1;
     temper1 = [[SSLTEMPer1Controller alloc] init];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
+{
+    return YES;
+}
+
 - (IBAction)readTemp:(id)sender
 {
     if ([temper1 getDeviceCount] == 0) 
