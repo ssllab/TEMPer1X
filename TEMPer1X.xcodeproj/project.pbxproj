@@ -16,21 +16,7 @@
 		4A6BDAF514FA68410034E418 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A6BDAF314FA68410034E418 /* Credits.rtf */; };
 		4A6BDAF814FA68410034E418 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6BDAF714FA68410034E418 /* AppDelegate.m */; };
 		4A6BDAFB14FA68410034E418 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6BDAF914FA68410034E418 /* MainMenu.xib */; };
-		4A6BDB0314FA68410034E418 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6BDB0214FA68410034E418 /* SenTestingKit.framework */; };
-		4A6BDB0414FA68410034E418 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6BDAE414FA68410034E418 /* Cocoa.framework */; };
-		4A6BDB0C14FA68410034E418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A6BDB0A14FA68410034E418 /* InfoPlist.strings */; };
-		4A6BDB0F14FA68410034E418 /* TEMPer1XTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6BDB0E14FA68410034E418 /* TEMPer1XTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4A6BDB0514FA68410034E418 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A6BDAD714FA68410034E418 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4A6BDADF14FA68410034E418;
-			remoteInfo = TEMPer1X;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4A594FC214FBDB7700DB6AC8 /* SSLTEMPer1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLTEMPer1Controller.h; sourceTree = "<group>"; };
@@ -52,12 +38,6 @@
 		4A6BDAF614FA68410034E418 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A6BDAF714FA68410034E418 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A6BDAFA14FA68410034E418 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		4A6BDB0114FA68410034E418 /* TEMPer1XTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEMPer1XTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A6BDB0214FA68410034E418 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4A6BDB0914FA68410034E418 /* TEMPer1XTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TEMPer1XTests-Info.plist"; sourceTree = "<group>"; };
-		4A6BDB0B14FA68410034E418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4A6BDB0D14FA68410034E418 /* TEMPer1XTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEMPer1XTests.h; sourceTree = "<group>"; };
-		4A6BDB0E14FA68410034E418 /* TEMPer1XTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMPer1XTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,15 +50,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A6BDAFD14FA68410034E418 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A6BDB0314FA68410034E418 /* SenTestingKit.framework in Frameworks */,
-				4A6BDB0414FA68410034E418 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				4A6BDAEA14FA68410034E418 /* TEMPer1X */,
-				4A6BDB0714FA68410034E418 /* TEMPer1XTests */,
 				4A6BDAE314FA68410034E418 /* Frameworks */,
 				4A6BDAE114FA68410034E418 /* Products */,
 			);
@@ -96,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				4A6BDAE014FA68410034E418 /* TEMPer1X.app */,
-				4A6BDB0114FA68410034E418 /* TEMPer1XTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,7 +75,6 @@
 			children = (
 				4A594FC914FBDCC700DB6AC8 /* IOKit.framework */,
 				4A6BDAE414FA68410034E418 /* Cocoa.framework */,
-				4A6BDB0214FA68410034E418 /* SenTestingKit.framework */,
 				4A6BDAE614FA68410034E418 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -150,25 +118,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4A6BDB0714FA68410034E418 /* TEMPer1XTests */ = {
-			isa = PBXGroup;
-			children = (
-				4A6BDB0D14FA68410034E418 /* TEMPer1XTests.h */,
-				4A6BDB0E14FA68410034E418 /* TEMPer1XTests.m */,
-				4A6BDB0814FA68410034E418 /* Supporting Files */,
-			);
-			path = TEMPer1XTests;
-			sourceTree = "<group>";
-		};
-		4A6BDB0814FA68410034E418 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4A6BDB0914FA68410034E418 /* TEMPer1XTests-Info.plist */,
-				4A6BDB0A14FA68410034E418 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,25 +137,6 @@
 			productName = TEMPer1X;
 			productReference = 4A6BDAE014FA68410034E418 /* TEMPer1X.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4A6BDB0014FA68410034E418 /* TEMPer1XTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4A6BDB1514FA68410034E418 /* Build configuration list for PBXNativeTarget "TEMPer1XTests" */;
-			buildPhases = (
-				4A6BDAFC14FA68410034E418 /* Sources */,
-				4A6BDAFD14FA68410034E418 /* Frameworks */,
-				4A6BDAFE14FA68410034E418 /* Resources */,
-				4A6BDAFF14FA68410034E418 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4A6BDB0614FA68410034E418 /* PBXTargetDependency */,
-			);
-			name = TEMPer1XTests;
-			productName = TEMPer1XTests;
-			productReference = 4A6BDB0114FA68410034E418 /* TEMPer1XTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -230,7 +160,6 @@
 			projectRoot = "";
 			targets = (
 				4A6BDADF14FA68410034E418 /* TEMPer1X */,
-				4A6BDB0014FA68410034E418 /* TEMPer1XTests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,31 +175,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A6BDAFE14FA68410034E418 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A6BDB0C14FA68410034E418 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4A6BDAFF14FA68410034E418 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A6BDADC14FA68410034E418 /* Sources */ = {
@@ -284,23 +189,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A6BDAFC14FA68410034E418 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A6BDB0F14FA68410034E418 /* TEMPer1XTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4A6BDB0614FA68410034E418 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4A6BDADF14FA68410034E418 /* TEMPer1X */;
-			targetProxy = 4A6BDB0514FA68410034E418 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4A6BDAED14FA68410034E418 /* InfoPlist.strings */ = {
@@ -325,14 +214,6 @@
 				4A6BDAFA14FA68410034E418 /* en */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		4A6BDB0A14FA68410034E418 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A6BDB0B14FA68410034E418 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,34 +292,6 @@
 			};
 			name = Release;
 		};
-		4A6BDB1614FA68410034E418 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TEMPer1X.app/Contents/MacOS/TEMPer1X";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TEMPer1X/TEMPer1X-Prefix.pch";
-				INFOPLIST_FILE = "TEMPer1XTests/TEMPer1XTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		4A6BDB1714FA68410034E418 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TEMPer1X.app/Contents/MacOS/TEMPer1X";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TEMPer1X/TEMPer1X-Prefix.pch";
-				INFOPLIST_FILE = "TEMPer1XTests/TEMPer1XTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -456,15 +309,6 @@
 			buildConfigurations = (
 				4A6BDB1314FA68410034E418 /* Debug */,
 				4A6BDB1414FA68410034E418 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4A6BDB1514FA68410034E418 /* Build configuration list for PBXNativeTarget "TEMPer1XTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4A6BDB1614FA68410034E418 /* Debug */,
-				4A6BDB1714FA68410034E418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
