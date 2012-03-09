@@ -16,6 +16,7 @@
 		4A6BDAF514FA68410034E418 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A6BDAF314FA68410034E418 /* Credits.rtf */; };
 		4A6BDAF814FA68410034E418 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6BDAF714FA68410034E418 /* AppDelegate.m */; };
 		4A6BDAFB14FA68410034E418 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6BDAF914FA68410034E418 /* MainMenu.xib */; };
+		4AE6D366150ACBFE0058A6BF /* TEMPer1X.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4AE6D365150ACBFE0058A6BF /* TEMPer1X.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		4A6BDAF614FA68410034E418 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A6BDAF714FA68410034E418 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A6BDAFA14FA68410034E418 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4AE6D365150ACBFE0058A6BF /* TEMPer1X.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TEMPer1X.icns; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		4A6BDAEB14FA68410034E418 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4AE6D365150ACBFE0058A6BF /* TEMPer1X.icns */,
 				4A6BDAEC14FA68410034E418 /* TEMPer1X-Info.plist */,
 				4A6BDAED14FA68410034E418 /* InfoPlist.strings */,
 				4A6BDAF014FA68410034E418 /* main.m */,
@@ -144,7 +147,7 @@
 		4A6BDAD714FA68410034E418 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Sledgehammer Solutions Limited";
 			};
 			buildConfigurationList = 4A6BDADA14FA68410034E418 /* Build configuration list for PBXProject "TEMPer1X" */;
@@ -172,6 +175,7 @@
 				4A6BDAEF14FA68410034E418 /* InfoPlist.strings in Resources */,
 				4A6BDAF514FA68410034E418 /* Credits.rtf in Resources */,
 				4A6BDAFB14FA68410034E418 /* MainMenu.xib in Resources */,
+				4AE6D366150ACBFE0058A6BF /* TEMPer1X.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
