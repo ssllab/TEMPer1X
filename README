@@ -4,6 +4,18 @@ Sledgehammer Solutions Limited
 For more information on SSL's work on the TEMPer1 devices on OS X
 and Linux visit http://ssl-lab.blogspot.com/
 
+This version is a basic utility that supports a single connected
+TEMPer1 USB device. 
+
+Features to be added:
+- Unit selection
+- Spool of logged temperature and time
+- Timed triggering of readings
+- Calibration settings and calculation
+
+Desirable, but not immediately planned:
+- Support multiple connected devices
+
 
 (c) 2012 Sledgehammer Solutions Limited
 
